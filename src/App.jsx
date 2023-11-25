@@ -1,7 +1,7 @@
 import "./index.css";
 import Navbar from "./components/Navbar.jsx";
 import Greeting from "./components/Greeting.jsx";
-import Skills from "./components/Skills.jsx";
+import Tech from "./components/Tech.jsx";
 import About from "./components/About.jsx";
 import Projects from "./components/Projects.jsx";
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
     <>
         <Navbar />
         <Greeting />
-        <Skills />
+        <Tech />
         <About />
         <Projects />
     </>

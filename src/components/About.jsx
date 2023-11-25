@@ -3,7 +3,7 @@ import aboutImage from '../assets/about.png';
 
 const About = () => {
     return (
-        <section className='bg-blue-100 py-20' id='about'>
+        <section className='bg-blue-50 py-20' id='about'>
             <div className='align-element grid md:grid-cols-2 items-center gap-16'>
                 <article>
                     <SectionTitle text='About Me' />

@@ -17,7 +17,7 @@ const About = () => {
                         <span className='font-bold'>Tech Voyage:</span> My journey involves not only a robust academic foundation but also hands-on experience. In the past, I founded Folly Web Design and Marketing,
                         where I sculpted tailored web solutions for a spectrum of businesses in Charleston, SC, including a liquor store, construction company, home remodel, and restaurants.
                         From crafting digital storefronts to enhancing online visibility, my technical prowess shines through in creating user-centric designs.
-                        Although I closed Folly Web Design and Marketing in 2004 when I moved to Las Vegas, the experience remains a pivotal part of my trajectory in the tech world.
+                        Although I closed Folly Web Design and Marketing in 2016 when I moved to Las Vegas, the experience remains a pivotal part of my trajectory in the tech world.
                     </p>
 
                     <p className='text-black mt-4'>

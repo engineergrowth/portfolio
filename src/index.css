@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .align-element {
+        @apply mx-auto max-w-7xl px-8;
+    }
+
+    .icons {
+        @apply text-blue-900 hover:text-red-600 h-8 w-8 duration-200;
+    }
+}
+
+
+
+body {
+    background-color: #1e3a8a;
+}
+
+

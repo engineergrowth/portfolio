@@ -3,6 +3,7 @@ import { FaCss3, FaReact, FaGit } from 'react-icons/fa';
 import { IoLogoJavascript } from "react-icons/io";
 import { SiPostgresql } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
+import PortfolioImage from './assets/p.png';
 export const Links = [
   { id: nanoid(), href: '#home', text: 'home' },
   { id: nanoid(), href: '#skills', text: 'tech' },
@@ -73,7 +74,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyOkG14gUCab2oU60ORJQq0TOV-bi_qe9ZAnihzS4M7PqnqvmfTCJ_8q3Px9F4XCvlgks&usqp=CAU',
+    img: PortfolioImage,
     url: 'https://www.netlify.app/',
     github: 'https://github.com/engineergrowth',
     title: 'first project',

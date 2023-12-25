@@ -13,10 +13,10 @@ const Greeting = () => {
                         Enthusiast turned professional.
                     </p>
                     <div className='flex gap-x-4 mt-4'>
-                        <a href='https://github.com/engineergrowth'>
+                        <a href='https://github.com/engineergrowth' target='_blank' rel='noopener noreferrer'>
                             <FaGithubAlt className='icons' />
                         </a>
-                        <a href='https://www.linkedin.com/in/blake-geard/'>
+                        <a href='https://www.linkedin.com/in/blake-geard/' target='_blank' rel='noopener noreferrer'>
                             <FaLinkedinIn className=' icons' />
                         </a>
                     </div>

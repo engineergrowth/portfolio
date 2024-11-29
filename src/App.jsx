@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar.jsx";
 import Greeting from "./components/Greeting.jsx";
 import Tech from "./components/Tech.jsx";
 import About from "./components/About.jsx";
+import Projects from "./components/Projects.jsx";
 const App = () => {
 
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Greeting />
         <Tech />
         <About />
+        <Projects />
     </>
   )
 }

@@ -22,13 +22,6 @@ const projects = [
         liveLink: "",
         image: eduTrackImage,
     },
-    {
-        title: "Project 3",
-        description: "A description of project 3.",
-        githubLink: "https://github.com/your-username/project3",
-        liveLink: "https://your-live-link.com",
-        image: "https://via.placeholder.com/800x400",
-    },
 ];
 
 const Portfolio = () => {

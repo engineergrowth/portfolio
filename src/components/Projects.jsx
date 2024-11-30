@@ -1,15 +1,33 @@
 import PropTypes from "prop-types";
-import { projects } from '../data.jsx'
 import SectionTitle from "./SectionTitle.jsx";
 import { ProjectCard } from "./ProjectCard.jsx";
+import todaysGigImage from '../assets/todaysgig.png';
 
-ProjectCard.propTypes = {
-    title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    githubLink: PropTypes.string.isRequired,
-    liveLink: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
-};
+const projects = [
+    {
+        title: "Today's Gig",
+        description: "A full-stack web application built with Next.js, Supabase, and Stripe to connect gig workers with businesses posting short-term jobs. The platform features real-time job postings, secure user authentication, and easy payment processing. I developed a responsive, user-friendly interface using React, ensuring a seamless experience across all devices.\n" +
+            "\n" +
+            "While the project is paused due to funding, it demonstrates my ability to build scalable, secure, and intuitive web applications.",
+        githubLink: "",
+        liveLink: "https://www.todaysgig.com",
+        image: todaysGigImage,
+    },
+    {
+        title: "Project 2",
+        description: "A description of project 2.",
+        githubLink: "https://github.com/your-username/project2",
+        liveLink: "https://your-live-link.com",
+        image: "https://via.placeholder.com/800x400",
+    },
+    {
+        title: "Project 3",
+        description: "A description of project 3.",
+        githubLink: "https://github.com/your-username/project3",
+        liveLink: "https://your-live-link.com",
+        image: "https://via.placeholder.com/800x400",
+    },
+];
 
 const Portfolio = () => {
 
@@ -50,5 +68,14 @@ const Portfolio = () => {
         </section>
     );
 };
+
+ProjectCard.propTypes = {
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    githubLink: PropTypes.string.isRequired,
+    liveLink: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+};
+
 
 export default Portfolio;

@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import SectionTitle from "./SectionTitle.jsx";
 import { ProjectCard } from "./ProjectCard.jsx";
 import todaysGigImage from '../assets/todaysgig.png';
+import eduTrackImage from '../assets/edutrack.png';
 
 const projects = [
     {
@@ -14,11 +15,12 @@ const projects = [
         image: todaysGigImage,
     },
     {
-        title: "Project 2",
-        description: "A description of project 2.",
-        githubLink: "https://github.com/your-username/project2",
-        liveLink: "https://your-live-link.com",
-        image: "https://via.placeholder.com/800x400",
+        title: "EduTrack",
+        description: "This mobile application was developed as part of my Software Engineering capstone project at WGU. It allows students to track academic terms, courses, and assessments, with features like adding and managing courses, viewing progress, and receiving notifications. Built using .NET MAUI, the app’s architecture includes a scalable database design with entities for Terms, Courses, Assessments, and Users." +
+            " I focused on ensuring a user-friendly interface, incorporating wireframes to iterate on design, and implemented testing using NUnit. The app is built using object-oriented principles, ensuring maintainability and scalability. This project demonstrates my ability to develop a fully functional, data-driven application from concept to deployment.",
+        githubLink: "",
+        liveLink: "",
+        image: eduTrackImage,
     },
     {
         title: "Project 3",

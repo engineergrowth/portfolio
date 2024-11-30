@@ -8,21 +8,15 @@ const About = () => {
                 <article>
                     <SectionTitle text='About Me' />
                     <p className='text-black mt-8'>
-                        <span className='font-bold'>Greetings!</span> I'm at the intersection of academia and coding, pursuing a Software Engineering degree at WGU with a focus on C#.
-                        Adding to the mix, I'm currently enrolled in Fullstack Academy, where I'm deep diving into web development,
-                        covering everything from vanilla to React and backend technologies.
+                        <span className='font-bold'>Hi there!</span> I recently graduated with a Software Engineering degree from WGU, focusing on C#, and I also completed Fullstack Academy. I'm passionate about web development, with expertise ranging from vanilla JavaScript to React and backend technologies.
                     </p>
 
                     <p className='text-black mt-4'>
-                        <span className='font-bold'>Tech Voyage:</span> My journey involves not only a robust academic foundation but also hands-on experience. In the past, I founded Folly Web Design and Marketing,
-                        where I sculpted tailored web solutions for a spectrum of businesses in Charleston, SC, including a liquor store, construction company, home remodel, and restaurants.
-                        From crafting digital storefronts to enhancing online visibility, my technical prowess shines through in creating user-centric designs.
-                        Although I closed Folly Web Design and Marketing in 2016 when I moved to Las Vegas, the experience remains a pivotal part of my trajectory in the tech world.
+                        <span className='font-bold'>My Journey:</span> I founded Folly Web Design and Marketing, where I built custom web solutions for businesses in Charleston, SC, including liquor stores, construction companies, and restaurants. Although I closed the business in 2016 when I moved to Las Vegas, that experience has shaped my skills and approach to development.
                     </p>
 
                     <p className='text-black mt-4'>
-                        <span className='font-bold'>Beyond Code:</span> Away from the screen, I'm a card game enthusiast, excelling as one of the top spades players globally and hosting free online tournaments. My love for card games extends to bridge and poker.
-                        Additionally, my diverse professional background includes roles as a certified sommelier, fine dining aficionado, and seasoned sales manager in the logistics realm.
+                        <span className='font-bold'>Outside of Tech:</span> I’m an avid card game enthusiast, ranking among the top global Spades players and hosting online tournaments. I also enjoy bridge, poker, and have worked as a certified sommelier and sales manager in logistics.
                     </p>
                 </article>
 
@@ -31,5 +25,6 @@ const About = () => {
         </section>
     );
 };
+
 
 export default About;

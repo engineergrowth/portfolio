@@ -35,7 +35,7 @@ const projects = [
     {
         title: "Global Scheduler",
         description: "Developed a desktop scheduling application using C# and MySQL. Features include multilingual login, timezone-aware scheduling, calendar views, user alerts for upcoming appointments, and full CRUD functionality for customers and appointments. Highlights proficiency in scalable, user-centric application design and robust database integration.",
-        githubLink: "",
+        githubLink: "https://github.com/engineergrowth/global-scheduler",
         liveLink: "",
         image: globalSchedulerImage,
     },

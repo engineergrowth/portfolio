@@ -3,6 +3,8 @@ import SectionTitle from "./SectionTitle.jsx";
 import { ProjectCard } from "./ProjectCard.jsx";
 import todaysGigImage from '../assets/todaysgig.png';
 import eduTrackImage from '../assets/edutrack.png';
+import puckerUpImage from '../assets/puckerup.png';
+import globalSchedulerImage from '../assets/globalscheduler.png';
 
 const projects = [
     {
@@ -22,7 +24,25 @@ const projects = [
         liveLink: "",
         image: eduTrackImage,
     },
+    {
+        title: "Pucker Up",
+        description: "This web application was developed collaboratively during my Fullstack Academy capstone project. Built with Node.js, Express, React, and Prisma, it is a dating platform featuring real-time messaging via WebSockets, authentication using JSON Web Tokens and bcrypt, and a matching system where users can heart profiles and connect upon mutual interest. " +
+            "Our team utilized GitHub pull requests, a project board for task management, and Agile methodologies to ensure seamless collaboration. This project highlights my experience with full-stack development, database design, and implementing real-time functionality in user-focused applications.",
+        githubLink: "https://github.com/engineergrowth/dating-app",
+        liveLink: "",
+        image: puckerUpImage,
+    },
+    {
+        title: "Global Scheduler",
+        description: "Developed a desktop scheduling application using C# and MySQL. Features include multilingual login, timezone-aware scheduling, calendar views, user alerts for upcoming appointments, and full CRUD functionality for customers and appointments. Highlights proficiency in scalable, user-centric application design and robust database integration.",
+        githubLink: "",
+        liveLink: "",
+        image: globalSchedulerImage,
+    },
+
+
 ];
+
 
 const Portfolio = () => {
 

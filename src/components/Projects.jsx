@@ -8,6 +8,13 @@ import globalSchedulerImage from '../assets/globalscheduler.png';
 
 const projects = [
     {
+        title: "Coding Vidz",
+        description: "Coding Vidz is a platform I built to make it easier for developers to share, discover, and organize their favorite coding videos. Inspired by my own journey as a developer, I wanted to create a tool that simplifies learning and helps others find the right resources quickly. Built with TypeScript, React, Node.js, and Prisma, the app features secure user authentication using JWT and bcrypt, a tagging system for easy video discovery, and bookmarking functionality to save videos for later. I designed the interface with Tailwind CSS to ensure it’s clean, responsive, and user-friendly. This project reflects my passion for building tools that enhance learning and showcases my ability to deliver a full-stack application with robust backend systems and intuitive design.",
+        githubLink: "https://github.com/engineergrowth/CodingVidz",
+        liveLink: "https://codingvidz.netlify.app/",
+        image: "",
+    },
+    {
         title: "Today's Gig",
         description: "A full-stack web application built with Next.js, Supabase, and Stripe to connect gig workers with businesses posting short-term jobs. The platform features real-time job postings, secure user authentication, and easy payment processing. I developed a responsive, user-friendly interface using React, ensuring a seamless experience across all devices.\n" +
             "\n" +

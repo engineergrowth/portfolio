@@ -28,7 +28,7 @@ const projects = [
         title: "EduTrack",
         description: "This mobile application was developed as part of my Software Engineering capstone project at WGU. It allows students to track academic terms, courses, and assessments, with features like adding and managing courses, viewing progress, and receiving notifications. Built using .NET MAUI, the app’s architecture includes a scalable database design with entities for Terms, Courses, Assessments, and Users." +
             " I focused on ensuring a user-friendly interface, incorporating wireframes to iterate on design, and implemented testing using NUnit. The app is built using object-oriented principles, ensuring maintainability and scalability. This project demonstrates my ability to develop a fully functional, data-driven application from concept to deployment.",
-        githubLink: "",
+        githubLink: "https://github.com/engineergrowth/Edutrack",
         liveLink: "",
         image: eduTrackImage,
     },
